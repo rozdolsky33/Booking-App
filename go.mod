@@ -1,3 +1,3 @@
 module github.com/rozdolsky33/Booking-App
 
-go 1.23
+go 1.21
