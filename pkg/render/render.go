@@ -2,29 +2,43 @@ package render
 
 import (
 	"bytes"
+	"github.com/rozdolsky33/Booking-App/config"
 	"html/template"
 	"log"
 	"net/http"
 	"path/filepath"
 )
 
+var functions = template.FuncMap{}
+
+var app *config.AppConfig
+
+// NewTemplates sets the config for the new template package
+func NewTemplates(a *config.AppConfig) {
+	app = a
+}
+
 // RenderTemplate renders templates using html/template
 func RenderTemplate(w http.ResponseWriter, tmpl string) {
-	// create a template cache
-	tc, err := CreateTemplateCache()
-	if err != nil {
-		log.Fatal(err)
+	var tc map[string]*template.Template
+
+	if app.UserCache {
+		tc = app.TemplateCache
+	} else {
+		// get the template cache from the app config
+		tc, _ = CreateTemplateCache()
 	}
+
 	// get requested template from cache
 	t, ok := tc[tmpl]
 
 	if !ok {
-		log.Fatal(err)
+		log.Fatal("Could not get template from template cache")
 	}
 
 	buf := new(bytes.Buffer)
 
-	err = t.Execute(buf, nil)
+	err := t.Execute(buf, nil)
 	//
 	if err != nil {
 		log.Println(err)
