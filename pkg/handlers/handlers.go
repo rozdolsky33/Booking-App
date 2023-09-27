@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"github.com/rozdolsky33/Booking-App/config"
+	"github.com/rozdolsky33/Booking-App/pkg/config"
 	"github.com/rozdolsky33/Booking-App/pkg/models"
 	"github.com/rozdolsky33/Booking-App/pkg/render"
 	"log"

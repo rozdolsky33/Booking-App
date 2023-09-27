@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
-	"github.com/rozdolsky33/Booking-App/config"
+	"github.com/rozdolsky33/Booking-App/pkg/config"
 	"github.com/rozdolsky33/Booking-App/pkg/handlers"
 	"net/http"
 )
