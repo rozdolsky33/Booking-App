@@ -2,7 +2,7 @@ package render
 
 import (
 	"bytes"
-	"github.com/rozdolsky33/Booking-App/config"
+	"github.com/rozdolsky33/Booking-App/pkg/config"
 	"github.com/rozdolsky33/Booking-App/pkg/models"
 	"html/template"
 	"log"
