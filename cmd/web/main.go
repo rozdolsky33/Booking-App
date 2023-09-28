@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"github.com/alexedwards/scs/v2"
-	"github.com/rozdolsky33/Booking-App/config"
+	"github.com/rozdolsky33/Booking-App/pkg/config"
 	"github.com/rozdolsky33/Booking-App/pkg/handlers"
 	"github.com/rozdolsky33/Booking-App/pkg/render"
 	"log"
