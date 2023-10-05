@@ -3,9 +3,9 @@ package handlers
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/rozdolsky33/Booking-App/pkg/config"
-	"github.com/rozdolsky33/Booking-App/pkg/models"
-	"github.com/rozdolsky33/Booking-App/pkg/render"
+	"github.com/rozdolsky33/Booking-App/internal/config"
+	"github.com/rozdolsky33/Booking-App/internal/models"
+	"github.com/rozdolsky33/Booking-App/internal/render"
 	"log"
 	"net/http"
 )

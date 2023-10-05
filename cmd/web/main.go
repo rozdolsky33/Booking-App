@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 	"github.com/alexedwards/scs/v2"
-	"github.com/rozdolsky33/Booking-App/pkg/config"
-	"github.com/rozdolsky33/Booking-App/pkg/handlers"
-	"github.com/rozdolsky33/Booking-App/pkg/render"
+	"github.com/rozdolsky33/Booking-App/internal/config"
+	"github.com/rozdolsky33/Booking-App/internal/handlers"
+	"github.com/rozdolsky33/Booking-App/internal/render"
 	"log"
 	"net/http"
 	"time"

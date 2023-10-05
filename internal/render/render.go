@@ -3,8 +3,8 @@ package render
 import (
 	"bytes"
 	"github.com/justinas/nosurf"
-	"github.com/rozdolsky33/Booking-App/pkg/config"
-	"github.com/rozdolsky33/Booking-App/pkg/models"
+	"github.com/rozdolsky33/Booking-App/internal/config"
+	"github.com/rozdolsky33/Booking-App/internal/models"
 	"html/template"
 	"log"
 	"net/http"
