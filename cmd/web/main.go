@@ -1,10 +1,12 @@
 package main
 
 import (
+	"encoding/gob"
 	"fmt"
 	"github.com/alexedwards/scs/v2"
 	"github.com/rozdolsky33/Booking-App/internal/config"
 	"github.com/rozdolsky33/Booking-App/internal/handlers"
+	"github.com/rozdolsky33/Booking-App/internal/models"
 	"github.com/rozdolsky33/Booking-App/internal/render"
 	"log"
 	"net/http"
@@ -17,6 +19,9 @@ var app config.AppConfig
 var session *scs.SessionManager
 
 func main() {
+	// Put into the session
+	gob.Register(models.Reservation{})
+
 	// get teh template cache from the app config
 	// change this to true when in production
 	app.InProduction = false
