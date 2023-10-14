@@ -1,0 +1,22 @@
+mode: set
+github.com/rozdolsky33/Booking-App/internal/handlers/handlers.go:23.47,27.2 1 1
+github.com/rozdolsky33/Booking-App/internal/handlers/handlers.go:30.33,32.2 1 1
+github.com/rozdolsky33/Booking-App/internal/handlers/handlers.go:35.67,41.2 4 1
+github.com/rozdolsky33/Booking-App/internal/handlers/handlers.go:44.68,55.2 5 1
+github.com/rozdolsky33/Booking-App/internal/handlers/handlers.go:58.74,66.2 4 1
+github.com/rozdolsky33/Booking-App/internal/handlers/handlers.go:69.78,71.16 2 1
+github.com/rozdolsky33/Booking-App/internal/handlers/handlers.go:71.16,74.3 2 0
+github.com/rozdolsky33/Booking-App/internal/handlers/handlers.go:75.2,88.19 6 1
+github.com/rozdolsky33/Booking-App/internal/handlers/handlers.go:88.19,97.3 4 0
+github.com/rozdolsky33/Booking-App/internal/handlers/handlers.go:99.2,101.66 2 1
+github.com/rozdolsky33/Booking-App/internal/handlers/handlers.go:106.71,108.2 1 1
+github.com/rozdolsky33/Booking-App/internal/handlers/handlers.go:111.69,113.2 1 1
+github.com/rozdolsky33/Booking-App/internal/handlers/handlers.go:116.75,118.2 1 1
+github.com/rozdolsky33/Booking-App/internal/handlers/handlers.go:121.79,126.2 3 1
+github.com/rozdolsky33/Booking-App/internal/handlers/handlers.go:129.70,131.2 1 1
+github.com/rozdolsky33/Booking-App/internal/handlers/handlers.go:139.79,146.16 3 1
+github.com/rozdolsky33/Booking-App/internal/handlers/handlers.go:146.16,148.3 1 0
+github.com/rozdolsky33/Booking-App/internal/handlers/handlers.go:150.2,151.14 2 1
+github.com/rozdolsky33/Booking-App/internal/handlers/handlers.go:154.81,156.9 2 1
+github.com/rozdolsky33/Booking-App/internal/handlers/handlers.go:156.9,161.3 4 1
+github.com/rozdolsky33/Booking-App/internal/handlers/handlers.go:163.2,168.4 4 0
