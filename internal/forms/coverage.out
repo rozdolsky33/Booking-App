@@ -1,0 +1,18 @@
+mode: set
+github.com/rozdolsky33/Booking-App/internal/forms/errors.go:6.44,8.2 1 1
+github.com/rozdolsky33/Booking-App/internal/forms/errors.go:11.42,13.18 2 1
+github.com/rozdolsky33/Booking-App/internal/forms/errors.go:13.18,15.3 1 1
+github.com/rozdolsky33/Booking-App/internal/forms/errors.go:16.2,16.14 1 1
+github.com/rozdolsky33/Booking-App/internal/forms/forms.go:17.29,19.2 1 1
+github.com/rozdolsky33/Booking-App/internal/forms/forms.go:22.33,27.2 1 1
+github.com/rozdolsky33/Booking-App/internal/forms/forms.go:29.43,30.31 1 1
+github.com/rozdolsky33/Booking-App/internal/forms/forms.go:30.31,32.37 2 1
+github.com/rozdolsky33/Booking-App/internal/forms/forms.go:32.37,34.4 1 1
+github.com/rozdolsky33/Booking-App/internal/forms/forms.go:39.39,41.13 2 1
+github.com/rozdolsky33/Booking-App/internal/forms/forms.go:41.13,43.3 1 1
+github.com/rozdolsky33/Booking-App/internal/forms/forms.go:44.2,44.13 1 1
+github.com/rozdolsky33/Booking-App/internal/forms/forms.go:48.57,50.21 2 1
+github.com/rozdolsky33/Booking-App/internal/forms/forms.go:50.21,53.3 2 1
+github.com/rozdolsky33/Booking-App/internal/forms/forms.go:54.2,54.13 1 1
+github.com/rozdolsky33/Booking-App/internal/forms/forms.go:58.38,59.40 1 1
+github.com/rozdolsky33/Booking-App/internal/forms/forms.go:59.40,61.3 1 1
