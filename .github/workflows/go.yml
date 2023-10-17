@@ -24,5 +24,6 @@ jobs:
     - name: Build
       run: go build -v ./cmd/web/*.go
 
-    - name: Test
-      run: go build -v ./cmd/web/*.go
+    - name: Run Unit Tests
+      run: |
+        go test -covermode=count -coverprofile=profile.cov ./...
