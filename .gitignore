@@ -3,3 +3,5 @@ main
 web
 .idea
 booking-app
+database.yml
+migrations
