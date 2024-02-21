@@ -2,7 +2,7 @@
 
 This is the repository for my bookings and reservations project.
 
-- Built in Go version 1.20.x
+- Built in Go version 1.21.x
 
 Dependencies:
 
@@ -27,4 +27,4 @@ go build -o bookings ./cmd/web/ && ./bookings \
 ```
 where you have the correct entires for your database name (dbName)
 and database user (dbUser)
-For the full list of command flags, run ./bookings -h
+For the full list of command flags, run ./booking -h
